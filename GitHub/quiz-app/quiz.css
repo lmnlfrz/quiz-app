@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Shippori Mincho B1', serif;
+    background-color: aquamarine;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    min-height: 100vh;
+
+}
+
+.quiz-container{
+    background-color:#fff;
+     box-shadow: 0 0 10px 5px (rgba(100,100,100,0.1));
+    border-radius: 10px;
+    overflow: hidden;
+    width:400px;
+    width:500px;
+    max-width:100%;
+}
+h2{
+    padding:1rem;
+    text-align: center;
+    margin:0;
+}
+    
+.quiz-header{
+    padding:3rem;
+}
+li {
+list-style-type: none;
+}
+
+ul li label{
+    cursor:pointer;
+}
+button{
+    background-color: rgb(96, 119, 170);
+    border:none;
+    color:white;
+    cursor:pointer;
+    display:block;
+    width:100%;
+    font-family: inherit;
+    font-size: 1.25rem;
+    padding:1.3rem;
+}
+
+button:hover{
+    background-color:rgb(32, 52, 97); ;
+}
